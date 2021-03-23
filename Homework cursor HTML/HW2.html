@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+  <style>
+    body {
+     background: rgb(194, 218, 228);
+    }
+   </style>
+</head>
+<body>
+  <p><table border="1" style="border-collapse:collapse;">
+    <tr>
+      <th>Ім'я</th>
+      <th>Прізвище</th>
+      <th>Телефон</th>
+      <th>Imail</th>
+    </tr>
+    <tr>
+      <td>Роман</td>
+      <td>Іванов</td>
+      <td>+380564732465</td>
+      <td>dfgsdjdkd145@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Мар'яна</td>
+      <td>Мартинюк</td>
+      <td>+380764529678</td>
+      <td>mardjgl3456@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Олена</td>
+      <td>Середа</td>
+      <td>+380987545231</td>
+      <td>olena234vjds@gmail.com</td>
+    </tr>
+    <tr>
+      <td>Володимир</td>
+      <td>Сердюк</td>
+      <td>+380456798346</td>
+      <td>wertjgc34@gmail.com</td>
+    </tr>
+  </table></p>
+  
+  <p><form name=”regisrration” action=”form.php” method=”post”></p>
+    <p><input type="text" required value="Ваше ім'я" name="name"></p>
+    <p><input type="text" required value="Ваше прізвище" name="last name"></p>
+
+    <p><h1>Яка ваша стать?</h1></p>
+    <p><form>
+    <label>
+      <input type="radio" name="gurtky"><strong>М</strong><br>
+    </label>
+    <label>
+      <input type="radio" name="gurtky"><strong>Ж</strong><br>
+    </label>
+  </form></p>
+    <p><textarea>Напишіть своє питання</textarea><br>
+    <form></p>
+      <p><input  required value="Ваше місто" name="city" list="city">
+     </form> 
+     <datalist id="city">
+      <option>City</option>
+    </datalist>
+</form></p>
+<p><h1>Вибрати мову:</h1>
+ <form>
+   <input type="checkbox" name="lenguage"
+   value="English">English<br>
+   <input type="checkbox" name="lenguage"
+   value="Українська">Українська<br>
+   <input type="checkbox" name="lenguage"
+   value="Русский">Русский<br>
+ </form>
+ <p><button type="button">Відправити</button></p>
+</body>
+</html>
