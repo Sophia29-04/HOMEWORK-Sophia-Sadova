@@ -45,9 +45,9 @@
     </tr>
   </table></p>
   
-  <p><form name=”regisrration” action=”form.php” method=”post”></p>
-    <p><input type="text" required value="Ваше ім'я" name="name"></p>
-    <p><input type="text" required value="Ваше прізвище" name="last name"></p>
+  <p><form name=”regisrration” action#=”form.php” method=”post”></p>
+    <p><input type="text" required placeholder="Ваше ім'я" name="name"></p>
+    <p><input type="text" required placeholder="Ваше прізвище" name="last name"></p>
 
     <p><h1>Яка ваша стать?</h1></p>
     <p><form>
@@ -60,10 +60,14 @@
   </form></p>
     <p><textarea>Напишіть своє питання</textarea><br>
     <form></p>
-      <p><input  required value="Ваше місто" name="city" list="city">
+      <p><input  required placeholder="Ваше місто" name="city" list="city">
      </form> 
      <datalist id="city">
-      <option>City</option>
+      <option>Київ</option>
+      <option>Львів</option>
+      <option>Одеса</option>
+      <option>Луцьк</option>
+      <option>Дніпро</option>
     </datalist>
 </form></p>
 <p><h1>Вибрати мову:</h1>
@@ -71,10 +75,10 @@
    <input type="checkbox" name="lenguage"
    value="English">English<br>
    <input type="checkbox" name="lenguage"
-   value="Українська">Українська<br>
+   value="Українська" cheked> Українська<br>
    <input type="checkbox" name="lenguage"
    value="Русский">Русский<br>
  </form>
- <p><button type="button">Відправити</button></p>
+ <p><input type="submit"></p>
 </body>
 </html>
