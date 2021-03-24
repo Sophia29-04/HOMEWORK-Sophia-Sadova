@@ -45,7 +45,7 @@
     </tr>
   </table></p>
   
-  <p><form name=”regisrration” action#=”form.php” method=”post”></p>
+  <p><form name=”regisrration” action=”#” method=”get” enctype="multipart/form-data"></p>
     <p><input type="text" required placeholder="Ваше ім'я" name="name"></p>
     <p><input type="text" required placeholder="Ваше прізвище" name="last name"></p>
 
@@ -55,10 +55,10 @@
       <input type="radio" name="gurtky"><strong>М</strong><br>
     </label>
     <label>
-      <input type="radio" name="gurtky"><strong>Ж</strong><br>
+      <input type="radio" name="gurtky" checked><strong>Ж</strong><br>
     </label>
   </form></p>
-    <p><textarea>Напишіть своє питання</textarea><br>
+    <textarea style="margin: 0px; width: 254px; height: 32px;" placeholder="Напишіть своє питання"></textarea>
     <form></p>
       <p><input  required placeholder="Ваше місто" name="city" list="city">
      </form> 
